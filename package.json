@@ -1,0 +1,14 @@
+{
+  "name": "docker-brotli",
+  "version": "1.0.0",
+  "description": "Docker with Brotli example.",
+  "main": "index.js",
+  "repository": "https://github.com/manelmadeira/docker-brotli.git",
+  "author": "Manuel Madeira <maneljssmadeira@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-brotli": "^1.2.0",
+    "gulp-gzip": "^1.4.0"
+  }
+}
