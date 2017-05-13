@@ -1,6 +1,6 @@
 # Set the base image to Ubuntu
-# FROM ubuntu:14.04
-FROM alpine
+FROM ubuntu:14.04
+# FROM alpine
 
 # Add the application resources URL
 RUN echo "deb http://archive.ubuntu.com/ubuntu/ $(lsb_release -sc) main universe" >> /etc/apt/sources.list && \
